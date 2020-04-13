@@ -1,0 +1,87 @@
+/************** Media Queries **************/
+
+@media (min-width: 576px) {
+  #scroll-down-link {
+    margin-right: 2.5rem;
+  }
+
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 600px) {
+  #about {
+    flex-wrap: wrap;
+  }
+
+  #about div {
+    flex: unset;
+  }
+
+  #scroll-down-link {
+    align-self: center;
+  }
+
+  #scroll-down-link .scroll-down {
+    margin: 0 -1.5rem;
+  }
+
+  .hero-img {
+    align-items: flex-start !important;
+    font-size: 1rem !important;
+  }
+
+  .hero-text {
+    align-items: flex-start;
+    margin-left: 1rem;
+  }
+
+  .scroll-top {
+    bottom: 1.6rem;
+  }
+
+  .slider .slide.current {
+    height: 50vh !important;
+  }
+
+  .slider-pos {
+    transform: translate(12%, 30vh) !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .btn-contact {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}

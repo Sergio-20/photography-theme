@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Valley Web LLC." />
+    <meta name="description" content="Photographer Portfolio Theme" />
+    <meta
+      name="keywords"
+      content="HTML,CSS,JavaScript,jQuery,portfolio,theme,website,Valley Web"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="imgs/favicon.ico" type="image/gif" sizes="16x16" />
+
+    <!-- Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/animations.css" />
+    <link rel="stylesheet" href="./css/gallery.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/mediaQueries.css" />
+
+    <title>Photography Portfolio</title>
+  </head>
+
+  <body>
+    <header id="top-menu">
+      <nav>
+        <ul class="list-container">
+          <li class="list-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="list-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="list-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero-img">
+        <div class="hero-text">
+          <h1>Pushing Boundaries</h1>
+          <h2>Daniel Walker</h2>
+          <p>Photographer / Entrepreneur</p>
+          <a href="#about" id="scroll-down-link" style="color: #fff;">
+            <i class="bounce fas fa-arrow-down scroll-down"></i>
+          </a>
+        </div>
+      </div>
+
+      <div id="about" class="container fadeIn">
+        <div class="container">
+          <figure>
+            <img src="./img/people/selfie.jpg" alt="" />
+            <ficaption class="block-center text-center"
+              >Taking a selfie during my adventures.</ficaption
+            >
+          </figure>
+        </div>
+        <div class="container">
+          <h2>Hi, I'm Daniel</h2>
+          <p>
+            My name is Daniel Walker, and I am a freelance photographer and
+            entrepreneur who loves to help make your special event that much
+            more amazing with stellar photos.
+          </p>
+          <p>
+            I have taken high-quality photos that perfectly match weddings,
+            parties, family reunions, nature, and many other life adventures!
+          </p>
+        </div>
+      </div>
+
+      <div id="portfolio" class="container fadeIn whitespace">
+        <h2>Portfolio</h2>
+
+        <div class="main-img">
+          <img src="./img/adventures/man-backpack-sunset.jpg" id="current" />
+        </div>
+
+        <div class="imgs">
+          <img src="./img/adventures/adventure.jpeg" />
+          <img src="./img/adventures/explore.jpeg" />
+          <img src="./img/nature/bench-palm-trees.jpg" />
+          <img src="./img/nature/forest-river.jpg" />
+          <img src="./img/nature/house.jpeg" />
+          <img src="./img/people/girl.jpeg" />
+          <img src="./img/people/selfie.jpg" />
+          <img src="./img/people/woman-flowers.jpg" />
+
+          <img src="./img/adventures/guy-near-ocean.jpg" />
+          <img src="./img/nature/clouds-conifers-fir-trees-forest-275538.jpg" />
+          <img src="./img/people/group-fun.jpg" />
+          <img src="./img/people/group-photo.jpg" />
+          <img src="./img/nature/tourist-attraction-of-a-place-225284.jpg" />
+          <img src="./img/adventures/adult-adventure-beautiful-cold-619949.jpg" />
+          <img src="./img/people/man-skateboarding-at-the-rink-2491427.jpg" />
+          <img src="./img/people/running-man-1578384.jpg" />
+        </div>
+      </div>
+
+      <div id="contact" class="container fadeIn whitespace">
+        <h2>Contact</h2>
+        <p>
+          Looking for someone to take stellar photos for your next adventure?
+          How about your family reunion? Wedding?
+        </p>
+        <p>
+          Click on the button below that says, "Let's Get Started" so that we
+          can begin creating someting amazing today!
+        </p>
+        <a class="btn btn-contact" href="mailto:myemail@example.com"
+          >Let's Get Started</a
+        >
+      </div>
+
+      <div id="social-media" class="container fadeIn whitespace">
+        <h2>Social Media</h2>
+        <p>Feel free to follow me, and check out more of my work at:</p>
+        <ul>
+          <li class="list-item">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook-square"> Facebook</i></a
+            >
+          </li>
+          <li class="list-item">
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fab fa-instagram"> Instagram</i></a
+            >
+          </li>
+          <li class="list-item">
+            <a href="https://www.linkedin.com/" target="_blank"
+              ><i class="fab fa-linkedin"> LinkedIn</i></a
+            >
+          </li>
+          <li class="list-item">
+            <a href="https://www.twitter.com/" target="_blank"
+              ><i class="fab fa-twitter"> Twitter</i></a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div id="scroll-top-container" class="fadeIn">
+        <a href="#" id="scroll-top-link">
+          <i class="scroll-top fas fa-angle-up"></i>
+        </a>
+      </div>
+
+      <!--<script type="application/javascript" src="./js/main.js"></script>-->
+      <script type="application/javascript" src="./js/gallery.js"></script>
+      <script type="application/javascript" src="./js/scrollTop.js"></script>
+      <script type="application/javascript" src="./js/smoothScroll.js"></script>
+
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+        crossorigin="anonymous"
+      ></script>
+      <script type="application/javascript" src="./js/fadeInOut.js"></script>
+    </main>
+
+    <footer class="fadeIn">
+      <p class="copyright-text text-center">
+        &copy; Copyright 2020. All Rights Reserved.
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+/************** Imports **************/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&display=swap');
+
+
+/************** Select Everything **************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Catamaran', serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+
+  overflow-x: hidden !important;
+  scroll-behavior: smooth !important;
+  scroll-margin-top: 2.5rem;
+}
+
+
+/* Root and Body */
+:root {
+  --mainColor: #0269C2;
+}
+
+html, body {
+  scrollbar-color: #000 #f3f1ec;
+}
+
+body::-webkit-scrollbar {
+  background: #f3f1ec;
+  background-color: #f3f1ec;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #000;
+  background-color: #000;
+}
+
+
+/************** HTML Elements **************/
+a, a:hover { text-decoration: none; }
+
+a {
+  background:
+  linear-gradient(
+    to bottom, var( --mainColor ) 0%,
+    var( --mainColor ) 100%
+  );
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 4px 4px;
+  color: #000;
+  padding: 0.25rem;
+  text-decoration: none;
+  transition: background-size 0.5s ease-in-out;
+}
+
+a:hover {
+  background-size: 4px 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+h1{ font-size: 2rem; }
+h2{ font-size: 1.8rem; margin-bottom: 1rem; }
+h3{ font-size: 1.6rem; }
+h4{ font-size: 1.4rem; }
+h5{ font-size: 1.2rem; }
+h6{ font-size: 1rem; }
+
+
+img {
+    filter: saturate(150%);
+  height: auto;
+  max-width: 100%;
+}
+
+p {
+  margin: 1rem auto;
+}
